@@ -5,11 +5,12 @@ body{
   position: absolute;
   top: 0px;
   right: 0px;
+  z-index:-1;
 }
 .blob-inferior{
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+  position: fixed;
+  bottom: 0;
+  z-index:-1;
 }
 .container1{
   height: 100vh;

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Background from './components/Background';
 import IntroPage from './components/IntroPage';
+import QuizPage from './components/QuizPage';
 
 function App() {
   const [showPage, setShowPage] = React.useState(true);
@@ -11,8 +12,8 @@ function App() {
 
   return(
     <main>
+      {showPage? <IntroPage startQuiz={startQuiz}/>: <QuizPage />}
       <Background />
-      {showPage && <IntroPage startQuiz={startQuiz}/>}
     </main>
     
   )
