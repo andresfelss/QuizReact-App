@@ -5,10 +5,10 @@ export default function Background(){
     return(
         <>
             <div className='blob-superior'>
-                <img src={blobs} />
+                <img src={blobs} alt='imagen' />
             </div>
             <div className='blob-inferior'>
-                <img src={blobsAzul} />
+                <img src={blobsAzul} alt='imagen'/>
             </div>
         </>
     )

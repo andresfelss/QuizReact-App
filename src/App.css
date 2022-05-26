@@ -28,3 +28,12 @@ body{
 .container1 > h1{
   font-size: 3rem;
 }
+#Correcta{
+  background-color: #94D7A2 !important;
+  border: none !important;
+}
+#Incorrecta{
+  background-color: #F8BCBC !important;
+  border: none !important;
+  color: #293264 !important;
+}
